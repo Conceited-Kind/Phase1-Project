@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnimeVerse - Discover Your Next Favorite Anime</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>AnimeVerse</h1>
+    <nav>
+      <button id="home-btn">Home</button>
+      <button id="recommendations-btn">Recommendations</button>
+      <button id="watchlist-btn">Watchlist</button>
+      <button id="community-btn">Community</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home-section">
+      <div class="hero">
+        <h2>Discover Your Next Favorite Anime</h2>
+        <p>Get personalized recommendations based on your preferences</p>
+        <button id="get-started-btn">Get Started</button>
+      </div>
+    </section>
+
+    <section id="preferences-section" class="hidden">
+      <h2>Tell Us Your Preferences</h2>
+      <form id="preferences-form">
+        <div class="form-group">
+          <label for="favorite-genres">Favorite Genres:</label>
+          <select id="favorite-genres" multiple>
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Drama">Drama</option>
+            <option value="Fantasy">Fantasy</option>
+          </select>
+        </div>
+        <button type="submit">Save Preferences</button>
+      </form>
+    </section>
+
+    <section id="recommendations-section" class="hidden">
+      <h2>Your Recommendations</h2>
+      <div id="anime-container" class="anime-grid"></div>
+    </section>
+
+    <section id="watchlist-section" class="hidden">
+      <h2>Your Watchlist</h2>
+      <div id="watchlist-container" class="anime-grid"></div>
+    </section>
+
+    <section id="community-section" class="hidden">
+      <h2>Community Discussions</h2>
+      <div id="discussions-container"></div>
+      <form id="new-discussion-form">
+        <input type="text" id="discussion-title" placeholder="Title">
+        <textarea id="discussion-content" placeholder="Your thoughts..."></textarea>
+        <button type="submit">Post Discussion</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AnimeVerse. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

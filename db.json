@@ -1,0 +1,66 @@
+{
+    "animes": [
+      {
+        "id": 1,
+        "title": "Dragon Ball Z",
+        "genre": ["Action", "Adventure", "Martial Arts"],
+        "rating": 8.7,
+        "year": 1989,
+        "episodes": 291,
+        "status": "Completed",
+        "streaming": ["Crunchyroll", "Funimation"],
+        "image": "https://i.pinimg.com/736x/1e/e5/7f/1ee57f5425d468f2992c5d2cb7e4799c.jpg",
+        "synopsis": "The adventures of Goku and his friends as they defend Earth against powerful villains."
+      },
+      {
+        "id": 2,
+        "title": "Jujutsu Kaisen",
+        "genre": ["Action", "Dark Fantasy", "Supernatural"],
+        "rating": 8.8,
+        "year": 2020,
+        "episodes": 24,
+        "status": "Ongoing",
+        "streaming": ["Crunchyroll", "HBO Max"],
+        "image": "https://i.pinimg.com/736x/99/ef/83/99ef837028463d4f940b63c2b288222b.jpg",
+        "synopsis": "A boy swallows a cursed talisman and becomes part of a secret organization of Jujutsu sorcerers."
+      },
+      {
+        "id": 3,
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "genre": ["Action", "Fantasy", "Supernatural"],
+        "rating": 8.7,
+        "year": 2019,
+        "episodes": 26,
+        "status": "Completed",
+        "streaming": ["Crunchyroll", "Funimation", "Hulu"],
+        "image": "https://i.pinimg.com/736x/6e/5f/d8/6e5fd8abd12708459aac601f92e18800.jpg",
+        "synopsis": "A young boy becomes a demon slayer after his family is slaughtered and his sister turned into a demon."
+      },
+      {
+        "id": 4,
+        "title": "Attack on Titan",
+        "genre": ["Action", "Drama", "Fantasy"],
+        "rating": 9.0,
+        "year": 2013,
+        "episodes": 75,
+        "status": "Completed",
+        "streaming": ["Crunchyroll", "Hulu"],
+        "image": "https://i.pinimg.com/736x/dd/03/21/dd03210095b859f3fd72f4d70384dae0.jpg",
+        "synopsis": "Humanity fights for survival against giant humanoid creatures called Titans."
+      },
+      {
+        "id": 5,
+        "title": "Solo Leveling",
+        "genre": ["Action", "Adventure", "Fantasy"],
+        "rating": 8.9,
+        "year": 2024,
+        "episodes": 12,
+        "status": "Ongoing",
+        "streaming": ["Crunchyroll"],
+        "image": "https://i.pinimg.com/736x/c3/7f/2a/c37f2aa4a23a8096dddb8609b4a92a6f.jpg",
+        "synopsis": "The weakest hunter gains the ability to level up and become the most powerful hunter."
+      }
+    ],
+    "watchlist": [],
+    "users": []
+  }
