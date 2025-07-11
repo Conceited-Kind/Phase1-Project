@@ -1,0 +1,26 @@
+{
+  "name": "phase1-project",
+  "version": "1.0.0",
+  "description": "A personalized anime discovery platform that uses AI-driven recommendations to help users find their next favorite show.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node script.js",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conceited-Kind/Phase1-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Conceited-Kind/Phase1-Project/issues"
+  },
+  "homepage": "https://github.com/Conceited-Kind/Phase1-Project#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
